@@ -26,6 +26,8 @@ namespace DKEvents
             }
         }
 
+        public static implicit operator T(DKEventBase<T> DKEvent) => DKEvent.Value;
+
         [FoldoutGroup("Debug")]
         [PropertyOrder(100)][SerializeField][LabelWidth(100f)] bool logEvent;
 
