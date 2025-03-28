@@ -16,18 +16,18 @@ namespace DKEvents
         {
             if(observable == null) return;
 
-            if (once) observable.AddOnce(Raise);
-            else observable.AddListener(Raise);
+            if (once) observable.AddOnce(Dispatch);
+            else observable.AddListener(Dispatch);
         }
 
         protected virtual void OnDestroy()
         {
             if(observable == null) return;
 
-            if (once) observable.RemoveOnce(Raise);
-            else observable.RemoveListener(Raise);
+            if (once) observable.RemoveOnce(Dispatch);
+            else observable.RemoveListener(Dispatch);
         }
 
-        public virtual void Raise(T value) => callback?.Invoke(value);
+        public virtual void Dispatch(T value) => callback?.Invoke(value);
     }
 }

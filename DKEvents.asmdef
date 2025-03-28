@@ -1,9 +1,7 @@
 {
     "name": "DKEvents",
     "rootNamespace": "",
-    "references": [
-        "Relay"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
