@@ -9,6 +9,7 @@ ScriptableObject Events and Observables
 Assets used:
 
 https://github.com/SixWays/Relay - for base event implementation (INCLUDED)
+
 https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041 - atributes for inspector (NOT INCLUDED)
 
 If you do not want to use these assets:
