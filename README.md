@@ -1,10 +1,10 @@
 # DKEvents
 ScriptableObject Events and Observables
 
-*Can log events in console
-*Can be invoked from inspector
-*Can remove all listeners from inspector
-*And also got Observables derived from MonoBeaviour
+1. Can log events in console
+2. Can be invoked from inspector
+3. Can remove all listeners from inspector
+4. MonoBeaviour Observables with UnityEvent callbacks
 
 Assets used:
 
